@@ -1,0 +1,11 @@
+{
+  "name": "amalfi-media-static-site",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "media:upload": "node scripts/upload-r2-media.mjs",
+    "media:rewrite": "node scripts/rewrite-media-urls.mjs",
+    "check:media": "node scripts/check-media-references.mjs"
+  }
+}

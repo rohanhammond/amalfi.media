@@ -1,0 +1,36 @@
+@font-face {
+    font-family: "pixetty";
+    src: url("./pixetty-b9e42869.ttf") format("truetype"),
+url("./pixetty-b9e42869.woff") format("woff"),
+url("./pixetty-b9e42869.woff2") format("woff2");
+}
+
+i[class^="pixetty-icon-"]:before, i[class*=" pixetty-icon-"]:before {
+    font-family: pixetty !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.pixetty-icon-arrow-down:before {
+    content: "\f101";
+}
+.pixetty-icon-close:before {
+    content: "\f102";
+}
+.pixetty-icon-mail:before {
+    content: "\f103";
+}
+.pixetty-icon-phone:before {
+    content: "\f104";
+}
+.pixetty-icon-reply:before {
+    content: "\f105";
+}
+.pixetty-icon-trash:before {
+    content: "\f106";
+}
