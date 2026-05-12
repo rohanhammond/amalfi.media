@@ -5,6 +5,7 @@ node_modules/
 .playwright-cli/
 
 scripts/
+src/
 wp-content/uploads/
 
 .DS_Store
