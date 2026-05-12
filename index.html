@@ -3,6 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script>
+    (function () {
+        var host = window.location.hostname.toLowerCase();
+        var isAmalfiHost = host === "amalfi.media" || host === "www.amalfi.media";
+
+        if (isAmalfiHost && window.location.pathname === "/index.html") {
+            window.location.replace("https://amalfi.media/");
+        }
+    }());
+    </script>
     <link rel="profile" href="https://gmpg.org/xfn/11">
 
     <title>Amalfi Media – Content Creation &amp; Media Strategy</title>
@@ -11,7 +21,7 @@
 		<!-- All in One SEO 4.9.3 - aioseo.com -->
 	<meta name="description" content="We’re a full-service content agency, blending strategic media planning with content creation for market impact." />
 	<meta name="robots" content="max-image-preview:large" />
-	<link rel="canonical" href="./index.html" />
+	<link rel="canonical" href="https://amalfi.media/" />
 	<meta name="generator" content="All in One SEO (AIOSEO) 4.9.3" />
 		<meta property="og:locale" content="en_US" />
 		<meta property="og:site_name" content="Amalfi Media -" />
