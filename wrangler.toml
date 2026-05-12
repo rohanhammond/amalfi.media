@@ -3,11 +3,11 @@ compatibility_date = "2026-05-12"
 workers_dev = true
 preview_urls = true
 
-[assets]
-directory = "."
-html_handling = "auto-trailing-slash"
-
 routes = [
   { pattern = "amalfi.media/*", zone_name = "amalfi.media" },
   { pattern = "www.amalfi.media/*", zone_name = "amalfi.media" }
 ]
+
+[assets]
+directory = "."
+html_handling = "auto-trailing-slash"
