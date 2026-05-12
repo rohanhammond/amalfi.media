@@ -1,0 +1,6 @@
+name = "amalfi-media"
+compatibility_date = "2026-05-12"
+
+[assets]
+directory = "."
+html_handling = "auto-trailing-slash"
